@@ -17,10 +17,10 @@ Ejecuta Python siempre con `python3 -I editor.py ...`.
 - Solo si el repo es **privado** se pueden guardar aquí `Musica/` y `Efectos de Sonido/` (Epidemic Sound / Pixabay, licencia de Jhon). Si el repo es público, nunca los subas.
 
 ## Flujo
-1. Estilo del cliente: `clientes/<cliente>/estilo.json`. Si no existe, analiza las referencias (`analizar`, `estilo`), mira las hojas de contacto y escríbelo a mano. Si las 5 referencias son muy distintas, pregunta cuál seguir.
+1. Estilo del cliente: `<Cliente>/Estilo/<cliente>.json`. Si no existe, analiza las referencias (`analizar`, `estilo`), mira las hojas de contacto y escríbelo a mano. Si las 5 referencias son muy distintas, pregunta cuál seguir.
 2. `python3 -I editor.py unir tomas/*.mp4 --salida trabajo/` → ordena, se queda con la última toma repetida, quita silencios, detecta b-roll y transcribe (`trabajo/transcripcion.txt`).
-3. Escribe el plan (`clientes/<cliente>/planes/<video>.json`, ver ejemplos): `correcciones`, `titulos`, `subtitulos`, `paneles`, `insertos`, `cta`, `musica` (`segmentos` para alargar canciones cortas), `impactos`, `transiciones`. Los tiempos pueden ser segundos o `{"frase": "texto dicho"}`.
-4. `python3 -I editor.py editar trabajo/preparado.mp4 --transcripcion trabajo/transcripcion.json --plan PLAN --estilo clientes/<cliente>/estilo.json -o final.mp4`
+3. Escribe el plan (`<Cliente>/Estilo/plan_<video>.json`, ver ejemplos): `correcciones`, `titulos`, `subtitulos`, `paneles`, `insertos`, `cta`, `musica` (`segmentos` para alargar canciones cortas), `impactos`, `transiciones`. Los tiempos pueden ser segundos o `{"frase": "texto dicho"}`.
+4. `python3 -I editor.py editar trabajo/preparado.mp4 --transcripcion trabajo/transcripcion.json --plan PLAN --estilo <Cliente>/Estilo/<cliente>.json -o final.mp4`
 5. Revisa: cuadrícula de cuadros con ffmpeg + Read, brillo con signalstats (nunca oscurecer), volumen con ebur128 (~ -14/-16 LUFS).
 6. Haz commit del estilo y el plan nuevos en este repo (sin videos ni audios).
 

@@ -13,8 +13,8 @@ Editor automático de reels 9:16: une tomas, quita silencios, transcribe, pone t
 | `editor.py` | El editor (comandos `analizar`, `estilo`, `preparar`, `unir`, `editar`) |
 | `sfx.py`, `sfx/` | Efectos de sonido generados (respaldo si no hay efectos propios) |
 | `fonts/` | Bebas Neue, Anton y Montserrat (licencia libre OFL) |
-| `clientes/<cliente>/estilo.json` | Estilo de cada cliente (colores, letras, zoom, color, efectos) |
-| `clientes/<cliente>/planes/` | Planes de cada video ya editado (para repetir o ajustar) |
+| `<Cliente>/Referencias, Material Grabado, Resultados, Estilo` | Igual que la carpeta JS MKG Videos de la laptop |
+| `Musica/`, `Efectos de Sonido/` | Música y efectos (solo con el repo privado) |
 | `estilos/` | Estilos base reutilizables |
 | `CLAUDE.md` | Instrucciones de trabajo para Claude |
 
