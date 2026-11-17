@@ -1,0 +1,197 @@
+{
+ "correcciones": {
+  "Sombratec": "SombraTek",
+  "tollos": "toldos",
+  "induciera": "industrial",
+  "Cinco": "sin",
+  "esturas": "costuras",
+  "Cebra": "Zebra"
+ },
+ "subtitulos": {
+  "activar": true
+ },
+ "titulos": [
+  {
+   "inicio": 0.05,
+   "fin": {
+    "frase": "Esto es"
+   },
+   "lineas": [
+    {
+     "texto": "Soluciones",
+     "tam": 161
+    },
+    {
+     "texto": "para el sol",
+     "tam": 104,
+     "color": "gris"
+    },
+    {
+     "texto": "y la lluvia",
+     "tam": 161,
+     "color": "acento"
+    }
+   ],
+   "impacto": true
+  },
+  {
+   "inicio": {
+    "frase": "Esto es"
+   },
+   "fin": {
+    "frase": "Diseñamos"
+   },
+   "lineas": [
+    {
+     "texto": "Esto es",
+     "tam": 104,
+     "color": "gris"
+    },
+    {
+     "texto": "SombraTek",
+     "tam": 182
+    }
+   ],
+   "impacto": true
+  },
+  {
+   "inicio": {
+    "frase": "Diseñamos"
+   },
+   "fin": {
+    "frase": "También contamos"
+   },
+   "lineas": [
+    {
+     "texto": "Diseñamos,",
+     "tam": 135
+    },
+    {
+     "texto": "fabricamos",
+     "tam": 135,
+     "color": "gris"
+    },
+    {
+     "texto": "e instalamos",
+     "tam": 135,
+     "color": "acento"
+    }
+   ]
+  },
+  {
+   "inicio": {
+    "frase": "También Roller"
+   },
+   "fin": {
+    "frase": "Todo lo que"
+   },
+   "lineas": [
+    {
+     "texto": "Roller",
+     "tam": 169
+    },
+    {
+     "texto": "Screen · Blackout · Zebra",
+     "tam": 83,
+     "color": "acento"
+    }
+   ]
+  },
+  {
+   "inicio": {
+    "frase": "la fabricamos aquí"
+   },
+   "fin": {
+    "frase": "que se pudran",
+    "desfase": -0.6
+   },
+   "lineas": [
+    {
+     "texto": "Hecho",
+     "tam": 104,
+     "color": "gris"
+    },
+    {
+     "texto": "aquí mismo",
+     "tam": 161
+    }
+   ]
+  },
+  {
+   "inicio": {
+    "frase": "que se pudran",
+    "desfase": -0.45
+   },
+   "fin": {
+    "frase": "Más sombra",
+    "desfase": -1.0
+   },
+   "lineas": [
+    {
+     "texto": "Sin costuras",
+     "tam": 150
+    },
+    {
+     "texto": "resiste sol y sal",
+     "tam": 98,
+     "color": "acento"
+    }
+   ]
+  },
+  {
+   "inicio": {
+    "frase": "Más sombra"
+   },
+   "fin": {
+    "frase": "la calidad que"
+   },
+   "lineas": [
+    {
+     "texto": "Más sombra,",
+     "tam": 150
+    },
+    {
+     "texto": "más vida",
+     "tam": 150,
+     "color": "acento"
+    }
+   ]
+  },
+  {
+   "inicio": {
+    "frase": "la calidad que"
+   },
+   "lineas": [
+    {
+     "texto": "SombraTek",
+     "tam": 182
+    },
+    {
+     "texto": "Punta Cana",
+     "tam": 104,
+     "color": "acento"
+    }
+   ],
+   "impacto": true
+  }
+ ],
+ "musica": {
+  "archivo": "Musica/loka_music-aggressive-hybrid-trailer-ident-635114.mp3",
+  "segmentos": [
+   [
+    0,
+    20.25
+   ],
+   [
+    1.45,
+    20.25
+   ],
+   [
+    20.25,
+    null
+   ]
+  ],
+  "desde": 0,
+  "volumen": 0.24
+ }
+}

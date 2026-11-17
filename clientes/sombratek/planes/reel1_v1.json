@@ -1,0 +1,55 @@
+{
+ "correcciones": {
+  "Sombratec": "SombraTek",
+  "tollos": "toldos",
+  "induciera": "industrial",
+  "Cinco": "Sin",
+  "esturas": "costuras",
+  "Cebra": "Zebra"
+ },
+ "subtitulos": {
+  "activar": true,
+  "resaltar": [
+   "sol",
+   "lluvia",
+   "SombraTek",
+   "toldos",
+   "aquí",
+   "calor",
+   "costuras",
+   "sombra",
+   "vida",
+   "calidad"
+  ]
+ },
+ "paneles": [
+  {
+   "inicio": {
+    "frase": "Diseñamos, fabricamos"
+   },
+   "fin": {
+    "frase": "También contamos"
+   },
+   "titulo": "Diseñamos, *fabricamos*\ne *instalamos*",
+   "tam_titulo": 96
+  },
+  {
+   "inicio": {
+    "frase": "También Roller"
+   },
+   "fin": {
+    "frase": "Todo lo que necesitas"
+   },
+   "titulo": "Roller\n*Screen* · *Blackout* · *Zebra*",
+   "tam_titulo": 84
+  }
+ ],
+ "cta": {
+  "etiqueta": "ESCRÍBENOS:",
+  "palabra": "COTIZAR",
+  "inicio": {
+   "frase": "la calidad que"
+  },
+  "ocultar_subtitulos": false
+ }
+}

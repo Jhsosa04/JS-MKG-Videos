@@ -1,0 +1,17 @@
+{
+ "cliente": "jsmkg_coral",
+ "fuente": "Bebas Neue",
+ "archivo_fuente": "BebasNeue-Regular.ttf",
+ "color_texto": "#FFFFFF",
+ "color_acento": "#E9574B",
+ "color_panel": "#F7EEEB",
+ "color_oscuro": "#181717",
+ "tam_subtitulo": 96,
+ "tam_resaltado": 150,
+ "subtitulo_y": 0.6,
+ "palabras_por_grupo": 3,
+ "zoom_alterno": 1.12,
+ "alto_panel": 0.34,
+ "volumen_musica": 0.12,
+ "lufs": -14
+}

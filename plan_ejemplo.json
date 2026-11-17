@@ -1,0 +1,20 @@
+{
+  "correcciones": {"Cloud": "Claude"},
+  "subtitulos": {"activar": true, "resaltar": ["edita", "paso", "skills", "listo"]},
+  "zoom_alterno": 1.12,
+  "zooms": [
+    {"inicio": {"frase": "no utilices el navegador"}, "fin": {"frase": "no utilices el navegador", "al_terminar": true}}
+  ],
+  "etiquetas": [
+    {"texto": "PASO 1", "inicio": {"frase": "vamos a necesitar"}, "fin": {"frase": "ahora claude necesita"}}
+  ],
+  "paneles": [
+    {"inicio": 15.9, "fin": 23.6, "titulo": "TRES *CARPETAS*", "imagen": "material/captura.png"},
+    {"inicio": {"frase": "definir el estilo"}, "fin": {"frase": "lo mejor es"}, "titulo": "DEFINE TU *ESTILO*"}
+  ],
+  "insertos": [
+    {"imagen": "material/logo_cliente.png", "inicio": 2.0, "fin": 4.5, "x": 0.5, "y": 0.78, "ancho": 0.35}
+  ],
+  "cta": {"etiqueta": "COMENTA:", "palabra": "EDITOR", "inicio": {"frase": "si comentas"}, "fin": {"frase": "todo este video"}},
+  "musica": {"archivo": "material/musica.mp3", "volumen": 0.10}
+}

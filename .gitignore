@@ -1,0 +1,12 @@
+# medios pesados o con licencia
+*.mp4
+*.mov
+*.mp3
+*.m4a
+Musica/
+Efectos de Sonido/
+modelo-whisper/
+trabajo/
+__pycache__/
+*.pyc
+!sfx/*.wav
