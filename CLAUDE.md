@@ -10,11 +10,12 @@ Ejecuta Python siempre con `python3 -I editor.py ...`.
 
 ## Forma de trabajo: SOLO GitHub (decisión de Jhon, 17-nov-2026)
 - **No uses la PC de Jhon** (nada de device_stage_files / device_commit_files ni la carpeta `Desktop/JS MKG Videos`), aunque la app de escritorio esté conectada. Todo se trabaja con este repo y el chat.
-- **Entradas:** Jhon adjunta en el chat las tomas numeradas (01, 02, 03a, 03b...) y, para un cliente nuevo, los videos de referencia.
-- **Entrega:** el video final se envía con SendUserFile. Los videos no se guardan en el repo (pesan demasiado).
+- **Carpetas del repo (igual que su laptop):** `<Cliente>/Referencias`, `<Cliente>/Material Grabado`, `<Cliente>/Resultados`, `<Cliente>/Estilo`, más `Musica/` y `Efectos de Sonido/`.
+- **Entradas:** las tomas numeradas (01, 02, 03a, 03b...) llegan adjuntas en el chat o subidas a `<Cliente>/Material Grabado` del repo (haz `git pull` primero). Para un cliente nuevo, sus referencias en `<Cliente>/Referencias`.
+- **Entrega:** el video final se envía con SendUserFile y, si el repo es privado, también se sube a `<Cliente>/Resultados/`. Ningún archivo puede pasar de 100 MB (límite de GitHub).
 - **Al terminar cada trabajo:** commit + push de lo nuevo (estilo, plan, cambios del editor) a `main`.
 - `buscar_media()` encuentra música y efectos por nombre en `/home/claude` y `/mnt/user-data/uploads`, así que los planes guardan solo el nombre del archivo.
-- Solo si el repo es **privado** se pueden guardar aquí `Musica/` y `Efectos de Sonido/` (Epidemic Sound / Pixabay, licencia de Jhon). Si el repo es público, nunca los subas.
+- Videos de clientes, `Musica/` y `Efectos de Sonido/` (Epidemic Sound / Pixabay, licencia de Jhon) solo se suben si el repo es **privado**. Compruébalo con `curl -s https://api.github.com/repos/Jhsosa04/JS-MKG-Videos`: si responde `"private": false` es público y no se suben medios.
 
 ## Flujo
 1. Estilo del cliente: `<Cliente>/Estilo/<cliente>.json`. Si no existe, analiza las referencias (`analizar`, `estilo`), mira las hojas de contacto y escríbelo a mano. Si las 5 referencias son muy distintas, pregunta cuál seguir.
