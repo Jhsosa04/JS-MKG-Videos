@@ -8,14 +8,13 @@ bash setup.sh            # instala faster-whisper, baja el modelo Whisper small 
 ```
 Ejecuta Python siempre con `python3 -I editor.py ...`.
 
-## De dónde salen los videos
-- **Desde la PC de Jhon (app de escritorio):** pide acceso a `~/Desktop/JS MKG Videos` y trae con device_stage_files:
-  - `<Cliente>/Material Grabado/` (tomas numeradas 01, 02, 03a, 03b...)
-  - `<Cliente>/Referencias/` (5 videos de estilo)
-  - `Musica/` y `Efectos de Sonido/` (sin la subcarpeta Ambiente). Son de Epidemic Sound / Pixabay: **nunca subirlos a este repo**.
-  - Devuelve el video final a `<Cliente>/Resultados/` con device_commit_files.
-- **Desde iPad u otro equipo:** Jhon adjunta las tomas en el chat (y, si hace falta, música/efectos). Entrega el video con SendUserFile.
+## Forma de trabajo: SOLO GitHub (decisión de Jhon, 17-nov-2026)
+- **No uses la PC de Jhon** (nada de device_stage_files / device_commit_files ni la carpeta `Desktop/JS MKG Videos`), aunque la app de escritorio esté conectada. Todo se trabaja con este repo y el chat.
+- **Entradas:** Jhon adjunta en el chat las tomas numeradas (01, 02, 03a, 03b...) y, para un cliente nuevo, los videos de referencia.
+- **Entrega:** el video final se envía con SendUserFile. Los videos no se guardan en el repo (pesan demasiado).
+- **Al terminar cada trabajo:** commit + push de lo nuevo (estilo, plan, cambios del editor) a `main`.
 - `buscar_media()` encuentra música y efectos por nombre en `/home/claude` y `/mnt/user-data/uploads`, así que los planes guardan solo el nombre del archivo.
+- Solo si el repo es **privado** se pueden guardar aquí `Musica/` y `Efectos de Sonido/` (Epidemic Sound / Pixabay, licencia de Jhon). Si el repo es público, nunca los subas.
 
 ## Flujo
 1. Estilo del cliente: `clientes/<cliente>/estilo.json`. Si no existe, analiza las referencias (`analizar`, `estilo`), mira las hojas de contacto y escríbelo a mano. Si las 5 referencias son muy distintas, pregunta cuál seguir.

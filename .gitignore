@@ -1,10 +1,9 @@
 # medios pesados o con licencia
 *.mp4
 *.mov
-*.mp3
+# *.mp3 permitido para Musica y Efectos (repo privado)
 *.m4a
-Musica/
-Efectos de Sonido/
+# Musica/ y Efectos de Sonido/ se permiten SOLO si el repo es privado
 modelo-whisper/
 trabajo/
 __pycache__/
